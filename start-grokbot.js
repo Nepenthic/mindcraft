@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 config();
 
 // Set essential environment variables if not in .env
-process.env.XAI_API_KEY = process.env.XAI_API_KEY || 'xai-RYbhHjUPJuM88icHADt7g8mxlX9DifKkhmzRh72AtvqV9Bap5z9g5cYaq0QKC5POmgUHZ2RgFQYIjZ8i';
+process.env.XAI_API_KEY = process.env.XAI_API_KEY || '';
 process.env.MINECRAFT_PORT = process.env.MINECRAFT_PORT || '25565';
 process.env.MINECRAFT_HOST = process.env.MINECRAFT_HOST || '127.0.0.1';
 process.env.MINECRAFT_USERNAME = process.env.MINECRAFT_USERNAME || 'GrokBot';
