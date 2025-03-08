@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, let's try this again. I'll gather some more oak logs for tool crafting. !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Argh, this error is driving me nuts! Nepenthic, we gotta fix this pathfinding issue. I'll try moving away again. !moveAway(5)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    }
+]

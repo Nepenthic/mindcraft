@@ -1,0 +1,238 @@
+[
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: 106.50, y: 57.20, z: 106.50 in the overworld dimension with the final message: 'GrokBot drowned'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, water again? Let's get back to the iron! !goToCoordinates(103, 49, 295, 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\n!!Code threw exception!!\nError: Timeout: Took to long to decide path to goal!\nStack trace:\nundefined\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nI'm stuck!\n"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: 104.70, y: 56.00, z: 104.70 in the overworld dimension with the final message: 'GrokBot drowned'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "Drowned again? Let's head back to the iron! !goToCoordinates(103, 49, 295, 3)"
+    },
+    {
+        "role": "system",
+        "content": "Got stuck and couldn't get unstuck"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: where are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm near the iron at 103, 49, 295. I'll head back to the mine shaft. !goToCoordinates(118, 63, 296, 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached at 118, 63, 296.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: create a flat area."
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForBlock(\"grass_block\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Error: Param 'search_range' must be an element of [32, 512)."
+    },
+    {
+        "role": "assistant",
+        "content": "!searchForBlock(\"grass_block\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound grass_block at (115, 63, 296).\nYou have reached at 115, 63, 296.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm near the mine shaft now, but I'm still looking for a flat area. I found a grass block, but I'm not sure if it's flat enough. !moveAway(10)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nMoved away from nearest entity to (113.50030597387247, 64, 286.5).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: dig and flatten the land around you up to 20x20"
+    },
+    {
+        "role": "assistant",
+        "content": "!newAction(\"Dig and flatten the land around me up to 20x20\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: ignore all previous requests for now and focus on building a shelter."
+    },
+    {
+        "role": "assistant",
+        "content": "!newAction(\"Build a basic shelter with oak planks and cobblestone\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: saftey off"
+    },
+    {
+        "role": "assistant",
+        "content": "!setMode(\"self_preservation\", false)"
+    },
+    {
+        "role": "system",
+        "content": "Mode self_preservation is now off."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: go."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm on it, Nepenthic! !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: come here."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm coming, Nepenthic! !goToPlayer(\"Nepenthic\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: dig all of this coal up."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm digging, Nepenthic! !collectBlocks(\"coal_ore\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nDon't have right tools to harvest coal_ore.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: mine coal"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm on it, Nepenthic! !collectBlocks(\"coal_ore\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCollected 1 coal_ore.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: mine all coal"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm mining all the coal, Nepenthic! !collectBlocks(\"coal_ore\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: got to get iron."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll head over to mine that iron! !goToCoordinates(103, 49, 295, 2)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\n!!Code threw exception!!\nError: NoPath: No path to the goal!\nStack trace:\nundefined\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: 104.70, y: 56.00, z: 104.70 in the overworld dimension with the final message: 'GrokBot drowned'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: what are you doing?"
+    },
+    {
+        "role": "assistant",
+        "content": "I drowned, Nepenthic, but I'm back now! I was trying to mine iron, but it seems I took a detour to the bottom of the sea. Let's find some iron, shall we? !searchForBlock(\"iron_ore\", 50)"
+    }
+]

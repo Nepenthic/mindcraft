@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Man, this error is really getting on my nerves! I'll try a different approach. !searchForBlock(\"dirt\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, these errors are killing me! Let me try something else. !moveAway(10)"
+    }
+]

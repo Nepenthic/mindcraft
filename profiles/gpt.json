@@ -1,0 +1,7 @@
+{
+    "name": "BuilderBot",
+    "username": "StructureBuilder",
+    "model": "grok-beta",
+    "api": "xai",
+    "embedding": "openai"
+}

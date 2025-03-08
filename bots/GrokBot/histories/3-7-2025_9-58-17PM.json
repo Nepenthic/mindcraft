@@ -1,0 +1,450 @@
+[
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: Picking up item!\nI'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I got stuck for a moment, but I'm free now. Let's try mining that coal again. !collectBlocks(\"coal_ore\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by self_preservation.\n        Your behavior log: Picking up item!\nI'm dying!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm not feeling so great. I think I need to eat something. !consume(\"chicken\")"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nConsumed chicken.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm feeling better now. Let's try mining that coal again. !collectBlocks(\"coal_ore\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I got stuck again, but I'm free now. Let's mine that coal. !collectBlocks(\"coal_ore\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I got stuck again, but I'm free now. Let's mine that coal. !collectBlocks(\"coal_ore\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nHunting sheep!\nHunting sheep!\nHunting sheep!\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: dont forget we still need a place to shelter up."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'll remember to build a shelter later, but first, let's mine this coal. !collectBlocks(\"coal_ore\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Got stuck and couldn't get unstuck"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I got stuck again, but I'm free now. Let's mine that coal. !collectBlocks(\"coal_ore\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nI'm dying!\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: sorry not trying to hit you im stuck too."
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, no worries, I'm free now. Let's mine that coal. !collectBlocks(\"coal_ore\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I got stuck again, but I'm free now. Let's try to mine that coal again. !collectBlocks(\"coal_ore\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCollected 1 coal_ore.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I got the coal. Now let's find a spot for our shelter. !searchForBlock(\"stone\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Error: Param 'search_range' must be an element of [32, 512)."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I messed up the search range. Let's try again. !searchForBlock(\"stone\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound stone at (125, 61, 300).\nYou have reached at 125, 61, 300.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I found some stone nearby. Should we start building our shelter here?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: might be kinda cramped dont ya think? lol"
+    },
+    {
+        "role": "assistant",
+        "content": "Yeah, good point, Nepenthic. Let's move away a bit for more space. !moveAway(10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:moveAway' was interrupted by self_defense.\n        Your behavior log: Fighting spider!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Ack! Spider alert! !attack(\"spider\")"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: 124.50, y: 68.00, z: 124.50 in the overworld dimension with the final message: 'GrokBot was slain by Spider'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, that spider got me. Respawned, time to get my stuff back! !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.\n        Your behavior log: Fighting spider!\nI'm dying!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm on my way to get my stuff back, but I'm also keeping an eye out for any threats. !setMode(\"cowardice\", true)"
+    },
+    {
+        "role": "system",
+        "content": "Mode cowardice is now on."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm on my way to get my stuff back, but I'm also keeping an eye out for any threats. !setMode(\"cowardice\", true)"
+    },
+    {
+        "role": "system",
+        "content": "Mode cowardice is already on."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm on my way to get my stuff back, but I'm also keeping an eye out for any threats. !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nAaa! A zombie!\n"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: 88.40, y: 63.32, z: 88.40 in the overworld dimension with the final message: 'GrokBot was slain by Zombie'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, another zombie! Time to get my stuff back again. !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:goToRememberedPlace' was interrupted by cowardice.\n        Your behavior log: Aaa! A zombie!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, a zombie got me again! I'm heading back to get my stuff. !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: 83.56, y: 64.25, z: 83.56 in the overworld dimension with the final message: 'GrokBot was blown up by Creeper'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "A creeper got me this time! I'll be more careful. !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: you can dig down to me and you should be safe,"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:goToRememberedPlace' was interrupted by cowardice.\n        Your behavior log: Aaa! A zombie!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm on my way to you, but I'm also watching out for any trouble. !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\n!!Code threw exception!!\nError: Timeout: Took to long to decide path to goal!\nStack trace:\nundefined\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm having trouble getting back to my stuff. There's something in the way!"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: where are you now?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm at x: 61.50, y: 66.00, z: 364.51 in the savanna."
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: can you make it over by me?"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm trying to reach you, but there's something blocking my path. !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCould not find Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I can't find you right now. Are you still in the same spot?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: yeah I'm still in the same spot generally I made a small tunnel."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm coming to you. !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCould not find Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm still having trouble finding you. Can you give me a more specific location or coordinates?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: How do I turn on coords again"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, press F3 to see your coordinates."
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: 110 64 296"
+    },
+    {
+        "role": "assistant",
+        "content": "On my way! !goToCoordinates(110, 64, 296, 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached at 110, 64, 296.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Nepenthic, I'm here! What's up?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: follow me."
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, following you now! !followPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: lets dig we need a furnace."
+    },
+    {
+        "role": "assistant",
+        "content": "Digging time! !searchForBlock(\"cobblestone\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Error: Param 'search_range' must be an element of [32, 512)."
+    },
+    {
+        "role": "assistant",
+        "content": "Whoops, let's try that again. !searchForBlock(\"cobblestone\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound cobblestone at (130, 65, 298).\nYou have reached at 130, 65, 298.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Got some cobblestone, now for the furnace. !craftRecipe(\"furnace\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou do not have the resources to craft a furnace. It requires: cobbled_deepslate: 8.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "We need more materials for the furnace. Let's keep mining!"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: got one built"
+    },
+    {
+        "role": "assistant",
+        "content": "Sweet! Let's head back. !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Yo, I'm here! What's next?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: mine these walls out far."
+    },
+    {
+        "role": "assistant",
+        "content": "On it! !collectBlocks(\"stone\", 64)"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: try to mine in a square."
+    },
+    {
+        "role": "assistant",
+        "content": "Got it, squaring up the mining! !collectBlocks(\"stone\", 64)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nI'm free.\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: hand me the pick axe please."
+    },
+    {
+        "role": "assistant",
+        "content": "Here you go! !givePlayer(\"Nepenthic\", \"stone_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n61\nDiscarded 1 stone_pickaxe.\nNepenthic received stone_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Yo, I'm here! What's next?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: lets take it to the next level!"
+    },
+    {
+        "role": "assistant",
+        "content": "Haha, sure! Let's go big or go home! !followPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: lets dig out this area into a big 2x10 cube"
+    },
+    {
+        "role": "assistant",
+        "content": "Oh, you mean like a basement? !newAction(\"Dig out a 2x10x10 cube starting from current position\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: yeah like a basement man."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: make it like a hallway and at the end make a 10x10x3 room"
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, digging a hallway and a room at the end! !newAction(\"Dig out a 2x10x1 hallway from current position, then dig out a 10x10x3 room at the end of the hallway\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: over here."
+    },
+    {
+        "role": "assistant",
+        "content": "On my way! !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: start over there."
+    },
+    {
+        "role": "assistant",
+        "content": "Got it, starting from there! !moveAway(2)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nMoved away from nearest entity to (128.50789551145417, 61, 298.5).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "role": "user",
+        "content": "Nepenthic: go."
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, digging a hallway and a room at the end! !newAction(\"Dig out a 2x10x1 hallway from current position, then dig out a 10x10x3 room at the end of the hallway\")"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:item_collecting' was interrupted by cowardice.\n        Your behavior log: Picking up item!\nAaa! A skeleton!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Oh no, a skeleton! !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nAaa! A zombie!\nAaa! A drowned!\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: what are you doing over there>"
+    },
+    {
+        "role": "assistant",
+        "content": "Just hanging out, trying to avoid those pesky mobs! !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCould not find Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    }
+]

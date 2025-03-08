@@ -1,0 +1,74 @@
+[
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm back! What's up?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: ok try moving now."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm still stuck here, but let's see what we can do. Any ideas?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: how would i fix pathfinding?"
+    },
+    {
+        "role": "assistant",
+        "content": "Hmm, pathfinding issues, huh? I'm not sure how to fix it, but maybe we can try some workarounds. What do you think?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: I have access to the code i just need to know what to do."
+    },
+    {
+        "role": "assistant",
+        "content": "Oh, you've got the code? Nice! To fix the pathfinding, you might want to check the navigation or movement algorithms. Look for any bugs or limitations in how the bot calculates its path. Maybe try updating the A* algorithm or tweaking the way it handles obstacles. Let me know if you need more specific suggestions!"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: follow me"
+    },
+    {
+        "role": "assistant",
+        "content": "On my way! !followPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, still getting that TypeError. I'm trying to follow you, but it's not working. Any ideas on how to fix this?"
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm back again! What's the plan now?"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: it looks like your able to do things again."
+    },
+    {
+        "role": "assistant",
+        "content": "Yeah, I'm back in action! What do you want me to do now?"
+    }
+]

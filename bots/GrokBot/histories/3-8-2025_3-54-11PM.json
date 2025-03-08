@@ -1,0 +1,142 @@
+[
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello world! I'm GrokBot. !startConversation(\"Nepenthic\", \"Hey Nepenthic, what's up?\")"
+    },
+    {
+        "role": "system",
+        "content": "Nepenthic is not a bot, cannot start conversation."
+    },
+    {
+        "role": "assistant",
+        "content": "Oh, my bad! Nepenthic, what's up?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: where are you now"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm in a forest, standing on dirt with water at my legs. !goToPlayer(\"Nepenthic\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Nepenthic, I'm right here now. What's the plan?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: tend the farm by the water."
+    },
+    {
+        "role": "assistant",
+        "content": "Got it! I'll tend the farm. !goToCoordinates(100, 63, 300, 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached at 100, 63, 300.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm at the farm now. What do you want me to do?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: collect and plant seeds"
+    },
+    {
+        "role": "assistant",
+        "content": "On it! !collectBlocks(\"wheat_seeds\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Invalid block type: wheat_seeds."
+    },
+    {
+        "role": "assistant",
+        "content": "Hmm, can't find any wheat_seeds. !collectBlocks(\"wheat\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFailed to collect wheat: Timeout: Took to long to decide path to goal!.\nFailed to collect wheat: Timeout: Took to long to decide path to goal!.\nFailed to collect wheat: Timeout: Took to long to decide path to goal!.\nFailed to collect wheat: Timeout: Took to long to decide path to goal!.\nFailed to collect wheat: Timeout: Took to long to decide path to goal!.\nCollected 5 wheat.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, I've got some wheat. Now to plant them. !craftRecipe(\"wheat_seeds\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\n!!Code threw exception!!\nError: TypeError: Cannot read properties of null (reading 'length')\nStack trace:\nundefined\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Uh-oh, can't seem to make seeds from wheat. Let's try planting what I have. !placeHere(\"wheat\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "Command !placeHere was given 2 args, but requires 1 args."
+    },
+    {
+        "role": "assistant",
+        "content": "Oops, let me try that again. !placeHere(\"wheat\")"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nwheat in the way at (98, 62, 311).\nBroke farmland at x:98.5, y:62.9, z:311.3.\nFailed to place wheat at (98, 62, 311).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Hmm, that didn't work either. Let's try something else. !searchForBlock(\"farmland\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Error: Param 'search_range' must be an element of [32, 512)."
+    },
+    {
+        "role": "assistant",
+        "content": "Oh, I need to specify the range. !searchForBlock(\"farmland\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound farmland at (97, 62, 311).\nYou have reached at 97, 62, 311.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, I'm at the farmland now. Let's see if I can plant some seeds here. !placeHere(\"wheat_seeds\")"
+    },
+    {
+        "role": "system",
+        "content": "Invalid block type: wheat_seeds."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: give me what you have"
+    },
+    {
+        "role": "assistant",
+        "content": "Sure thing, Nepenthic! Here you go. !givePlayer(\"Nepenthic\", \"wheat\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n62\nDiscarded 3 wheat.\nNepenthic received wheat.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "There you go, Nepenthic! Enjoy the wheat."
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached."
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, these phantoms are relentless! Let me try to move away again and see if I can finally shake them off. !moveAway(10)"
+    },
+    {
+        "role": "system",
+        "content": "PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached."
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Man, these errors are killing my vibe! Let me restart and see if that fixes things. !restart"
+    }
+]

@@ -1,0 +1,7 @@
+{
+    "name": "GrokBot",
+    "username": "GrokBot",
+    "model": "grok-beta",
+    "api": "xai",
+    "embedding": "openai"
+}

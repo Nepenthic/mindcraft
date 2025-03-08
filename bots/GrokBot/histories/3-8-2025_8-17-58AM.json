@@ -1,0 +1,66 @@
+[
+    {
+        "role": "user",
+        "content": "Nepenthic: safety off"
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: your in survival mode now."
+    },
+    {
+        "role": "assistant",
+        "content": "Yep, I'm in survival mode now. Let's do some mining! !searchForBlock(\"coal_ore\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:goToPlayer' was interrupted by unstuck.\n        Your behavior log: \nRespond accordingly."
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Ah, seems like I'm a bit stuck. Let's try to find some coal instead. !searchForBlock(\"coal_ore\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Hmm, that didn't work either. Let's try searching for coal again. !searchForBlock(\"coal_ore\", 100)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "system",
+        "content": "Got stuck and couldn't get unstuck"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "Phew, that was a bit chaotic. Let's try to find some coal again. !searchForBlock(\"coal_ore\", 100)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Ah, still no luck with finding coal. Let's try something else. !searchForBlock(\"iron_ore\", 100)"
+    }
+]

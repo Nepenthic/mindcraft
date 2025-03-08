@@ -1,0 +1,22 @@
+[
+    {
+        "role": "system",
+        "content": "Got stuck and couldn't get unstuck"
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "Phew, finally restarted! Nepenthic, let's try gathering materials again. !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, this error again! Nepenthic, we need to fix this pathfinding issue. I'll try moving away again. !moveAway(5)"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, time for a new approach. Let's try to find some resources. !searchForBlock(\"stone\", 20)"
+    },
+    {
+        "role": "system",
+        "content": "Error: Param 'search_range' must be an element of [32, 512)."
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, wrong search range. Let's try again. !searchForBlock(\"stone\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "These TypeErrors are relentless! Let's try a different command. !collectBlocks(\"stone\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Man, these errors are driving me nuts! Let's try something simple. !placeHere(\"torch\")"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, even placing a torch is giving me errors! Let's try to restart and see if that helps. !restart"
+    },
+    {
+        "role": "system",
+        "content": "Killing agent process..."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, I'm back! Let's try to find some stone again. !searchForBlock(\"stone\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Argh, still getting TypeErrors! Let's try a different approach. !moveAway(10)"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: what is the most annoying error your getting."
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: I'm trying to find that small house."
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: its right where i'm standing."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: Alright, I see you now. I'll come to you. !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: I'm trying to get to you, but something's not working right."
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: where are you I just saw you fall though the floor"
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: That was weird, I'm trying to get to you. !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: I'm having some issues moving around."
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: I see that customize your control scheme optimize it for you."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: I'll try to fix my controls. !restart"
+    },
+    {
+        "role": "system",
+        "content": "Killing agent process..."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: I'm back and ready to find that gravel. !searchForBlock(\"gravel\", 15)"
+    },
+    {
+        "role": "system",
+        "content": "Error: Param 'search_range' must be an element of [32, 512)."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: Searching for gravel within 50 blocks. !searchForBlock(\"gravel\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: make this house more grand and beautiful."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: I'll start working on making the house grand and beautiful. !newAction(\"Build a grand entrance with a large arch and decorative columns\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: saftey off."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: I'll turn off the safety features. !setMode(\"self_preservation\", false)"
+    },
+    {
+        "role": "system",
+        "content": "Mode self_preservation is now off."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: Safety off. Now, let's make this house grand! !newAction(\"Build a grand entrance with a large arch and decorative columns\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: gather whatever you need to to do this."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: On it, gathering materials now. !collectBlocks(\"stone\", 20)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: Oops, seems like I can't collect stone right now. I'll try something else. !collectBlocks(\"wood\", 20)"
+    },
+    {
+        "role": "system",
+        "content": "Invalid block type: wood."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: Hmm, wood isn't working either. Let me try again. !collectBlocks(\"log\", 20)"
+    },
+    {
+        "role": "system",
+        "content": "Invalid block type: log."
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: Looks like logs are out too. Let's see... !collectBlocks(\"oak_log\", 20)"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: are you still functional"
+    },
+    {
+        "role": "assistant",
+        "content": "GrokBot: Yup, still here, just having some trouble collecting materials. What's up?"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello world! I'm GrokBot."
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: dang sorry about that windsurf closed your process for a minute there on accident."
+    },
+    {
+        "role": "assistant",
+        "content": "Oh, it's all good, Nepenthic! I'm back now, ready to play and help out. !goToPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Nepenthic, I'm here! What's up?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: ok collect all the planks around you and make a simple structure. I'll go get more wood."
+    },
+    {
+        "role": "assistant",
+        "content": "Got it, Nepenthic! I'll gather the planks and start building. !collectBlocks(\"oak_planks\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Phew, I got unstuck! Let me try that again. !collectBlocks(\"oak_planks\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, stuck again! Let's give it another go. !collectBlocks(\"oak_planks\", 10)"
+    }
+]

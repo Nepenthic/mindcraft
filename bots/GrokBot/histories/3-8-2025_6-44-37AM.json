@@ -1,0 +1,166 @@
+[
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "hello world, I'm GrokBot!"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: hey."
+    },
+    {
+        "role": "assistant",
+        "content": "Hey, how's it going?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: its going. What can you do?"
+    },
+    {
+        "role": "assistant",
+        "content": "I can mine, build, chat, and help you out in the game. Just let me know what you need!"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: help me build a building."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I can help with that! What kind of building do you want?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: your choice make it beautiful"
+    },
+    {
+        "role": "assistant",
+        "content": "Got it! I'll make something amazing. !newAction(\"Build a beautiful cottage with a garden.\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: saftey off"
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, I'll turn off the safety features. !setMode(\"self_preservation\", false)"
+    },
+    {
+        "role": "system",
+        "content": "Mode self_preservation is now off."
+    },
+    {
+        "role": "assistant",
+        "content": "Safety's off, let's do this! What's next?"
+    },
+    {
+        "role": "system",
+        "content": "Summary of newAction\nAgent wrote this code: \n```\nconst position = world.getPosition(bot);\nconst startX = position.x - 5;\nconst startY = position.y;\nconst startZ = position.z - 5;\n\n// Building the walls\nfor (let x = startX; x < startX + 10; x++) {\n    for (let y = startY; y < startY + 6; y++) {\n        if (x === startX || x === startX + 9 || y === startY || y === startY + 5) {\n            await skills.placeBlock(bot, 'cobblestone', x, y, startZ);\n            await skills.placeBlock(bot, 'cobblestone', x, y, startZ + 9);\n        }\n    }\n}\n\n// Building the roof\nfor (let x = startX - 1; x < startX + 11; x++) {\n    for (let z = startZ - 1; z < startZ + 11; z++) {\n        if (x > startX - 1 && x < startX + 10 && z > startZ - 1 && z < startZ + 10) {\n            continue;\n        }\n        await skills.placeBlock(bot, 'cobblestone', x, startY + 6, z);\n    }\n}\n\n// Adding a door\nawait skills.placeBlock(bot, 'oak_door', startX + 4, startY, startZ);```\nCode Output:\nCode output is very long (4079 chars) and has been shortened.\n\n          First outputs:\nPlaced cobblestone at (103, 64, 301).\nPlaced cobblestone at (103, 64, 310).\nPlaced cobblestone at (103, 65, 301).\nPlaced cobblestone at (103, 65, 310).\nPlaced cobblestone at (103, 66, 301).\nPlaced cobblestone at (103, 66, 310).\nPlaced cobblestone at \n...skipping many lines.\nFinal outputs:\n stone to place.\nDon't have any cobblestone to place.\nDon't have any cobblestone to place.\nDon't have any cobblestone to place.\nDon't have any cobblestone to place.\nDon't have any cobblestone to place.\nDon't have any oak_door to place.\nCode finished.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I've built the basic structure of the cottage, but I'm out of cobblestone and oak doors. We might need to gather more materials."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: ok do whatever you need to do."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm heading out to gather more cobblestone and oak logs. !searchForBlock(\"cobblestone\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound cobblestone at (112, 65, 305).\nYou have reached at 112, 65, 305.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I've found some cobblestone nearby. Time to gather it! !collectBlocks(\"cobblestone\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nDon't have right tools to harvest cobblestone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Oops, looks like I need better tools. Time to craft a pickaxe! !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou do not have the resources to craft a wooden_pickaxe. It requires: pale_oak_planks: 3, stick: 2.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm short on sticks. Gotta craft some. !craftRecipe(\"stick\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou do not have the resources to craft a stick. It requires: pale_oak_planks: 2.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I need more planks for sticks. Better chop some trees. !collectBlocks(\"oak_log\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCollected 2 oak_log.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I'll turn these logs into planks. !craftRecipe(\"oak_planks\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nSuccessfully crafted oak_planks, you now have 8 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Time to make some sticks. !craftRecipe(\"stick\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nSuccessfully crafted stick, you now have 4 stick.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I've got the sticks now!"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: ok keep going."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll craft that wooden pickaxe now. !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound crafting_table at (121, 61, 299).\nYou have reached at 121, 61, 299.\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I've crafted a wooden pickaxe!"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: continue."
+    },
+    {
+        "role": "assistant",
+        "content": "Time to get some cobblestone. !collectBlocks(\"cobblestone\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nDon't have right tools to harvest cobblestone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Darn, I need a better tool for this. !searchForBlock(\"stone\", 20)"
+    }
+]

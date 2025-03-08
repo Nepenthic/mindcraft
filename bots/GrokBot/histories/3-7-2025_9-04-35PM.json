@@ -1,0 +1,138 @@
+[
+    {
+        "role": "system",
+        "content": "Respond with hello world and your name"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello world! I'm GrokBot."
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: hello grokbot"
+    },
+    {
+        "role": "assistant",
+        "content": "Hey Nepenthic, what's up?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: where are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm at x: 31.71, y: 67.00, z: 279.46, in a stony shore biome. Where are you?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: what do you want to do?"
+    },
+    {
+        "role": "assistant",
+        "content": "Let's go mining for some diamonds, Nepenthic! !followPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: lol we need a shelter first"
+    },
+    {
+        "role": "assistant",
+        "content": "Good point, Nepenthic! Let's find a spot to set up camp. !followPlayer(\"Nepenthic\", 3)"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: zombie look out!"
+    },
+    {
+        "role": "assistant",
+        "content": "Ahhh! A zombie! !attack(\"zombie\")"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nPicking up item!\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: lets build a shelter"
+    },
+    {
+        "role": "assistant",
+        "content": "On it, Nepenthic! !newAction(\"Find a suitable spot for a shelter and start building.\")"
+    },
+    {
+        "role": "system",
+        "content": "newAction not allowed! Code writing is disabled in settings. Notify the user."
+    },
+    {
+        "role": "assistant",
+        "content": "Oh, I'm not allowed to write new code. !searchForBlock(\"wooden_planks\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Invalid block type: wooden_planks."
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nI'm dying!\n"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: 71.43, y: 62.34, z: 71.43 in the overworld dimension with the final message: 'GrokBot was slain by Drowned'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "Uh oh, I died! Respawned now. !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:goToRememberedPlace' was interrupted by self_defense.\n        Your behavior log: Fighting drowned!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Yikes, those drowned got me good! Time to gear up and get my stuff back! !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached at 71.4336732205695, 62.33970279531443, 261.6520024760358.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm back at the spot where I died. Time to get my stuff!"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: saftey off"
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I'll stop. !stop"
+    },
+    {
+        "role": "system",
+        "content": "Agent stopped."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: can you collect wood?"
+    },
+    {
+        "role": "assistant",
+        "content": "On my way! !searchForBlock(\"oak_log\", 20)"
+    },
+    {
+        "role": "system",
+        "content": "Error: Param 'search_range' must be an element of [32, 512)."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    }
+]

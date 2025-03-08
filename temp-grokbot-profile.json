@@ -1,0 +1,6 @@
+{
+  "name": "GrokBot",
+  "username": "GrokBot",
+  "model": "grok-1",
+  "api": "xai"
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: bro what are you doing?"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm trying to find some coal or iron, but things aren't going smoothly. !searchForBlock(\"coal_ore\", 100)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: come over by me."
+    },
+    {
+        "role": "assistant",
+        "content": "Sure thing, Nepenthic! !goToPlayer(\"Nepenthic\", 3)"
+    }
+]

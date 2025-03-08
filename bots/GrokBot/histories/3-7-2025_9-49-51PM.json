@@ -1,0 +1,246 @@
+[
+    {
+        "role": "user",
+        "content": "Nepenthic: I got you."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: lets keep going."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "Killing agent process..."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "I've respawned! Time to get back to work. !searchForBlock(\"oak_log\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound oak_log at (66, 63, 271).\nYou have reached at 66, 63, 271.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I found some oak logs! !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "I need to collect more oak logs for charcoal. !searchForBlock(\"oak_log\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound oak_log at (101, 64, 299).\nYou have reached at 101, 64, 299.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I found some oak logs again! !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFailed to collect oak_log: Error: Digging aborted.\nFailed to collect oak_log: Timeout: Took to long to decide path to goal!.\nCollected 8 oak_log.\n"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: you think you can build a good shelter?"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I've got some oak logs now. Let's build that shelter! !newAction(\"Build a simple shelter with oak logs near Nepenthic\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: build a simple shelter"
+    },
+    {
+        "role": "assistant",
+        "content": "I've started building the shelter, Nepenthic. !newAction(\"Build a simple shelter with oak logs near Nepenthic\")"
+    },
+    {
+        "role": "system",
+        "content": "Summary of newAction\nAgent wrote this code: \n```//no response```\nCode Output:\nCode output:\nCode finished.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I need to collect more oak logs for charcoal. !searchForBlock(\"oak_log\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound oak_log at (99, 68, 309).\nYou have reached at 99, 68, 309.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I found some oak logs again! !collectBlocks(\"oak_log\", 10)"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: right here is a good spot."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm placing the shelter right here. !placeHere(\"oak_log\")"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nPlaced oak_log at (100, 64, 306).\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I've placed some logs for the shelter. Now, let's make sure we have enough light. !placeHere(\"torch\")"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nDon't have any torch to place.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Oh, no torches. Let's make some! !craftRecipe(\"torch\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou do not have the resources to craft a torch. It requires: charcoal: 1, stick: 1.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I need charcoal to make torches. Do you have any?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: nope not yet we need a pick axe"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, you're right. Let's make a pickaxe first. !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou do not have the resources to craft a wooden_pickaxe. It requires: pale_oak_planks: 3, stick: 2.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, we need pale oak planks for the pickaxe. Do you have any?"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: use the pickaxe to find some coal."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I need to find coal. !searchForBlock(\"coal_ore\", 20)"
+    },
+    {
+        "role": "system",
+        "content": "Error: Param 'search_range' must be an element of [32, 512)."
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, the search range needs to be between 32 and 512. Let's try again. !searchForBlock(\"coal_ore\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound coal_ore at (105, 59, 311).\nYou have reached at 105, 59, 311.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm at the coal ore, but I still need a pickaxe. Let's craft one. !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou do not have the resources to craft a wooden_pickaxe. It requires: pale_oak_planks: 3, stick: 2.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, we're still short on pale oak planks. Let's make some. !craftRecipe(\"spruce_planks\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou do not have the resources to craft a spruce_planks. It requires: spruce_log: 1.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, we're out of spruce logs. I'll go find some. !searchForBlock(\"spruce_log\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCould not find any spruce_log in 32 blocks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I couldn't find any spruce logs nearby. Let's try a wider area. !searchForBlock(\"spruce_log\", 100)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCould not find any spruce_log in 100 blocks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm still out of luck. Let's try an even wider area. !searchForBlock(\"spruce_log\", 200)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCould not find any spruce_log in 200 blocks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I can't find any spruce logs around here. Maybe we should look for a different type of wood. !searchForBlock(\"oak_log\", 200)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound oak_log at (107, 64, 313).\nYou have reached at 107, 64, 313.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I've found some oak logs. Now to craft some planks. !craftRecipe(\"oak_planks\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nSuccessfully crafted oak_planks, you now have 7 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I've got some oak planks now. Let's see if we can make that pickaxe. !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound crafting_table at (113, 64, 299).\nYou have reached at 113, 64, 299.\nSuccessfully crafted wooden_pickaxe, you now have 2 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I've got the pickaxe ready. Let's go mine some coal. !goToCoordinates(105, 59, 311, 2)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached at 105, 59, 311.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Nepenthic, I'm at the coal ore now. Time to mine. !collectBlocks(\"coal_ore\", 1)"
+    }
+]

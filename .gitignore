@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Large executables
+*.exe
+
+# Sensitive information
+keys.json
+
+# Logs and temporary files
+*.log
+tmp/
+wandb/
+experiments/
+
+# OS specific files
+.DS_Store
+Thumbs.db

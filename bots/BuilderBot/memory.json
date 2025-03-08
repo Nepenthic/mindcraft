@@ -1,0 +1,12 @@
+{
+  "memory": "",
+  "turns": [
+    {
+      "role": "system",
+      "content": "Respond with hello world and your name"
+    }
+  ],
+  "self_prompting_state": 0,
+  "self_prompt": null,
+  "last_sender": null
+}

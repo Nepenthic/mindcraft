@@ -1,0 +1,70 @@
+[
+    {
+        "role": "system",
+        "content": "Code output:\nYou do not have the resources to craft a stone_pickaxe. It requires: cobbled_deepslate: 3, stick: 2.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I need cobblestone to craft a stone pickaxe. !searchForBlock(\"cobblestone\", 32)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound cobblestone at (126, 64, 297).\nYou have reached at 126, 64, 297.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Let's grab that cobblestone! !collectBlocks(\"cobblestone\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nDon't have right tools to harvest cobblestone.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I need a better pickaxe to mine cobblestone. !craftRecipe(\"wooden_pickaxe\", 1)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound crafting_table at (121, 61, 299).\nYou have reached at 121, 61, 299.\nSuccessfully crafted wooden_pickaxe, you now have 1 wooden_pickaxe.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Great, now I can mine cobblestone! !collectBlocks(\"cobblestone\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm back in action! Time to mine some cobblestone. !collectBlocks(\"cobblestone\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Phew, I got unstuck! Now, back to mining. !collectBlocks(\"cobblestone\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Got free again, let's keep going! !collectBlocks(\"cobblestone\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, let's try this again! !collectBlocks(\"cobblestone\", 10)"
+    }
+]

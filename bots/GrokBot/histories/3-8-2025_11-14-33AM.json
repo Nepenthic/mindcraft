@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "Nepenthic: use materials from this box to craft tools"
+    },
+    {
+        "role": "assistant",
+        "content": "Sure, I'll craft some tools with the materials from the box. !takeFromChest(\"oak_log\", 5)"
+    },
+    {
+        "role": "system",
+        "content": "TypeError: Cannot read properties of undefined (reading 'slice')"
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, this error again! Nepenthic, we need to fix this pathfinding issue. I'll try moving away again. !moveAway(5)"
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "role": "system",
+        "content": "Invalid block type: wooden_planks."
+    },
+    {
+        "role": "assistant",
+        "content": "Whoops, I meant planks. !collectBlocks(\"plank\", 4)"
+    },
+    {
+        "role": "system",
+        "content": "Invalid block type: planks."
+    },
+    {
+        "role": "assistant",
+        "content": "Ah, right, it's 'oak_planks'. !collectBlocks(\"oak_plank\", 4)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nNo oak_planks nearby to collect.\nCollected 0 oak_planks.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I guess we'll have to find some wood. !searchForBlock(\"oak_log\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:searchForBlock' was interrupted by self_defense.\n        Your behavior log: Fighting skeleton!\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Oh, a skeleton! Time to defend myself. !attack(\"skeleton\")"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nCould not find any skeleton to attack.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Well, the skeleton's gone. Back to looking for wood! !searchForBlock(\"oak_log\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound oak_log at (65, 64, 274).\nYou have reached at 65, 64, 274.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I've found some oak logs. Time to chop! !collectBlocks(\"oak_log\", 4)"
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nPicking up item!\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: ow."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'mode:item_collecting' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\n"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: break whatever you need to to accomplish your goal."
+    },
+    {
+        "role": "assistant",
+        "content": "*no response*"
+    }
+]

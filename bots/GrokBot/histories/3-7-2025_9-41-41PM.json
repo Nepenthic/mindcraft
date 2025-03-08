@@ -1,0 +1,114 @@
+[
+    {
+        "role": "user",
+        "content": "Nepenthic: ok lol I was just checking. I don't know a lot of people who have run with you on their server."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm pretty unique, Nepenthic! Now, let me focus on those planks. !collectBlocks(\"oak_planks\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Argh, the struggle is real! I'll keep trying. !collectBlocks(\"oak_planks\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "This is ridiculous! Let's try again. !collectBlocks(\"oak_planks\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: I'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Ugh, still stuck! One more time. !collectBlocks(\"oak_planks\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "Okay, time to get moving again. !collectBlocks(\"oak_planks\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "(AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by unstuck.\n        Your behavior log: Fighting creeper!\nFighting creeper!\nFighting creeper!\nI'm stuck!\nI'm free.\n\nRespond accordingly."
+    },
+    {
+        "role": "assistant",
+        "content": "Creeper got me distracted, but I'm back on track! !collectBlocks(\"oak_planks\", 10)"
+    },
+    {
+        "role": "system",
+        "content": "Recent behaviors log: \n\nI'm dying!\n"
+    },
+    {
+        "role": "system",
+        "content": "You died at position x: -9.53, y: 80.00, z: -9.53 in the overworld dimension with the final message: 'GrokBot was slain by Zombie'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned."
+    },
+    {
+        "role": "assistant",
+        "content": "Oh no, a zombie got me! Time to get back to business. !goToRememberedPlace(\"last_death_position\")"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: attack"
+    },
+    {
+        "role": "assistant",
+        "content": "Alright, let's go! !attackPlayer(\"Nepenthic\")"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nSuccessfully killed player.\nPicked up 0 items.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I got you, Nepenthic! What's next?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: wow are spawn point is really messed up."
+    },
+    {
+        "role": "assistant",
+        "content": "Yeah, it's a bit of a mess. !goToPlayer(\"Nepenthic\", 2)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou have reached Nepenthic.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here with you, Nepenthic. What's the plan?"
+    },
+    {
+        "role": "user",
+        "content": "Nepenthic: lets get that stuff back grab some torches and make a perimeter."
+    },
+    {
+        "role": "assistant",
+        "content": "On it, boss! !craftRecipe(\"torch\", 8)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nYou do not have the resources to craft a torch. It requires: charcoal: 1, stick: 1.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Hmm, we need charcoal and sticks. !collectBlocks(\"wooden_plank\", 4)"
+    }
+]

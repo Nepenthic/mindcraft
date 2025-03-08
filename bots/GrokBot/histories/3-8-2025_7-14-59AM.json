@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "Code output:\nFailed to collect oak_log: Timeout: Took to long to decide path to goal!.\nFailed to collect oak_log: Timeout: Took to long to decide path to goal!.\nCollected 0 oak_log.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "I can't find any oak logs. Let me try searching for oak leaves instead. !searchForBlock(\"oak_leaves\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound oak_leaves at (2, 87, 321).\n!!Code threw exception!!\nError: Timeout: Took to long to decide path to goal!\nStack trace:\nundefined\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Hmm, I can't get to the oak leaves either. I'll need to find another source of wood. !searchForBlock(\"any_log\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "Invalid block type: any_log."
+    },
+    {
+        "role": "assistant",
+        "content": "Oops, that didn't work. I'll look for oak logs specifically. !searchForBlock(\"oak_log\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "Code output:\nFound oak_log at (1, 87, 321).\n!!Code threw exception!!\nError: Timeout: Took to long to decide path to goal!\nStack trace:\nundefined\n"
+    },
+    {
+        "role": "assistant",
+        "content": "Still can't reach the oak logs. Maybe I'll try searching for birch logs instead. !searchForBlock(\"birch_log\", 50)"
+    },
+    {
+        "role": "system",
+        "content": "Code execution refused stop after 10 seconds. Killing process."
+    },
+    {
+        "role": "system",
+        "content": "Agent process restarted."
+    },
+    {
+        "role": "assistant",
+        "content": "Oh no, my head must be in the clouds. Let me come down to earth and try again. !goToCoordinates(-3.31, 76, 325.50, 0)"
+    }
+]
